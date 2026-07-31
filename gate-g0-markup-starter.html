@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gate G0 — Barangay Profile (STARTER)</title>
+  <title>Gate G0 — Barangay Profile</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
@@ -53,7 +53,6 @@
     <img src="assets/logo.jpg" alt="Barangay San Juan Logo" class="image is-128x128" style="margin: 0 auto;">
   </div>
 
-  <!-- Navigation links -->
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-menu">
       <div class="navbar-start">
@@ -67,7 +66,90 @@
 </header>  
 
 <main>
-  
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="title is-3">About Brgy. San Juan</h2>
+      <p>We are Barangay San Juan, a barangay with a good community and led by a good local government.</p>
+    </div>
+
+  </section>
+
+  <section id="officials" class="section">
+    <div class="container">
+      <h2 class="title is-3">Barangay Officials</h2>
+      <div class="columns is-multiline">
+        <article class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-4">Domeng Ngo</p>
+              <p class="subtitle is-6">Barangay Captain</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-4">Uno Dulay</p>
+              <p class="subtitle is-6">Barangay Secretary</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="column is-one-third">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-4">Rei Saquing</p>
+              <p class="subtitle is-6">Barangay Treasurer</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="title is-3">Contact Us</h2>
+        <form>
+          <div class="field">
+            <label class="label" for="name">Name</label>
+            <div class="control">
+              <input class="input" type="text" id="name" name="name" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label" for="email">Email</label>
+            <div class="control">
+              <input class="input" type="email" id="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label" for="message">Message</label>
+            <div class="control">
+              <textarea class="textarea" id="message" name="message"></textarea>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="section has-background-light">
+        <div class="container has-text-centered">
+          <p>© 2026 Barangay San Juan</p>
+        </div>
+      </div>
+    </footer>
 </main>
 
 </body>
